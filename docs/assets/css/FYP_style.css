@@ -127,7 +127,10 @@ footer p {
         flex-direction: column; /* Stack images vertically on smaller screens */
         align-items: center; /* Center images */
     }
-    
+    .video-container {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+        align-items: center; /* Center images */
+    }
   
 
 }
