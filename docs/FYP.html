@@ -13,34 +13,98 @@
 </header>
 
 <section>
-    <h2>Overview</h2>
-    <p>Enhancing pest monitoring in NZ’s native bush with advanced technology.</p>
+    <h2>Project Overview</h2>
+    <p>
+        My final year project as part of my degree in Electrical and Electronics engineering, collaborating with 
+        <a href="https://www.cacophony.org.nz/" target="_blank" rel="noopener noreferrer">The Cacophony Project</a> 
+        to enhance their thermal camera pest monitoring system. Our goal was to transform their existing still thermal camera into a 
+        sophisticated two-axis robotic system. This innovative upgrade allows the system to autonomously track and follow animals 
+        in their natural habitat, leveraging the power of the thermal camera's AI detection algorithms for improved monitoring and 
+        data collection. This project not only aims to advance wildlife observation but also contributes to effective pest management strategies
+        as part of Cacophony's goal of predator-free by the year 2040.
+    </p>
 </section>
 
 <section>
-    <h2>Hardware Design</h2>
+    <h2>Hardware Design Evolution</h2>
     <p>Developed a durable, weatherproof camera housing for outdoor use.</p>
-    <img src="assets/Images/Skeleton_Ball.png" alt="Electronics Image">
+    
+    <div class="image-container">
+        <figure>
+            <img src="assets/Images/P1.png" alt="P1">
+            <p class="image-caption">Prototype 1 VeroBoard</p>
+        </figure>
+        <figure>
+            <img src="assets/Images/P2.png" alt="P2">
+            <p class="image-caption">Lab Testing Prototype</p>
+        </figure>
+        <figure>
+            <img src="assets/Images/FYP_P2.png" alt="Hardware Design Image">
+            <p class="image-caption">Final Prototype PCB</p>
+        </figure>
+    </div>
+</section>
+
+
+<section>
+    <h2>Final Prototype and System Integration</h2>
+<p>
+    Developed a robust Printed Circuit Board (PCB) to facilitate connections between various sensors and outputs. 
+    Through multiple iterations, I designed a PCB capable of controlling two stepper motors utilizing the TMC2209 
+    stepper drivers. This board not only supports motor control but also features dedicated connectors for seamless 
+    communication with a range of sensors, as well as direct connections to the thermal camera board. 
+    The design is Integrated into Cacophony's thermal camera system by making use of the existing power PCB. All the 
+    thermal cameras connections to the power board are routed through a seperate plane. This design allows the thermal 
+    camera system to function normally when the robotic system is connected 
+</p>
+
+    <div class="image-container">
+    <figure>
+        <img src="assets/Images/FYP_P2.png" alt="P2">
+        <p class="image-caption">Final Prototype PCB</p>
+    </figure>
+    <figure>
+        <img src="assets/Images/SystemIntegration.png" alt="Hardware Design Image">
+        <p class="image-caption">System Integration</p>
+    </figure>
+    
+    <div>
 </section>
 
 <section>
-    <h2>Electronics</h2>
-    <p>Integrated sensors like range finder and IMU for real-time tracking.</p>
-    <img src="electronics_image.jpg" alt="Electronics Image">
-</section>
+    <h2>Overall System</h2>
+    <p>
+        The overall system has been designed by a final year project group of five members. While individual contributions are not highlighted in this project display, it’s important to recognize the collaborative effort involved in creating this advanced system. 
+        My embedded system specifically focuses on motor control, facilitating communication with the thermal camera board. This integration is crucial for the system’s functionality, enabling seamless operation in real-time monitoring and tracking applications.
+    </p>
 
+    <div class="image-container">
+        <figure class="image-wrapper">
+            <img src="assets/Images/Skeleton_Ball.png" alt="Final Prototype PCB">
+            <figcaption class="caption">Skeleton veiw of how this hardware fits into the system</figcaption>
+        </figure>
+        <figure class="image-wrapper">
+            <img src="assets/Images/AssembledRoboticCamera.jpg" alt="System Integration">
+            <figcaption class="caption">Assembled Robotic Camera System</figcaption>
+        </figure>
+    </div>
+</section>
 <section>
-    <h2>PCB Design</h2>
-    <p>Designed PCB to connect sensors, outputs, and Raspberry Pi Pico.</p>
-    <img src="assets/Images/FYP_P2.png" alt="Hardware Design Image">
+    <h2>Detection Tracking Video</h2>
+    <p>
+        In this video, we showcase the final prototype in action, demonstrating its advanced AI detection capabilities and the smooth movement of the camera system. Watch as the robotic camera autonomously tracks objects in real-time, highlighting the effectiveness of our innovative design in monitoring wildlife. This demonstration illustrates the potential applications of our project in enhancing pest management strategies.
+    </p>
+    <div class="video-container">
+    <video controls width= auto>
+        <source src="assets/video/recording_1938510__10_4_2024, 2_43_20 PM.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video controls width= auto>
+        <source src="assets/video/AI Camera Demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
 </section>
-
-<section>
-    <h2>Software</h2>
-    <p>Developed control algorithms and integrated AI for better tracking.</p>
-    <img src="software_image.jpg" alt="Software Image">
-</section>
-
 <footer>
     <p>&copy; 2024 Joel Suddaby | Robotic Camera Project</p>
 </footer>

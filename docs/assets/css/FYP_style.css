@@ -36,7 +36,7 @@ section {
 section h2 {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #008c4a; /* Green accent for section headers */
+    color: hsl(152, 100%, 27%); /* Green accent for section headers */
 }
 
 section p {
@@ -45,14 +45,57 @@ section p {
     line-height: 1.8;
 }
 
-section img {
-    display: block;
-    margin: 20px auto;
-    max-width: 80%;
-    height: auto;
-    border-radius: 10px;
-    
+/* Image container for side-by-side images */
+.image-container {
+    display: flex; /* Use flexbox to align images side by side */
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Space between images */
+    margin-top: 10px; /* Space above the images */
+    padding: 20px; /* Add padding around the images */
+    background-color: #363a381e; /* Cacophony Green with 50% opacity */
+    border-radius: 10px; /* Optional: add rounded corners to the container */
 }
+
+/* Style for images within the container */
+.image-container img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: add a border to the images */
+    background-color: #ffffffc7; /* Cacophony Green with 50% opacity */
+    border-radius: 5px; /* Optional: add rounded corners to images */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+/* Style for image captions */
+.image-caption {
+    font-size: 1.2rem; /* Change this to your desired size */
+    color: #000000; /* Optional: set the caption color to match the theme */
+    text-align: center; /* Center the caption under the image */
+    margin-top: 5px; /* Space between the image and caption */
+    line-height: 1.5; /* Improve line height for better readability */
+}
+
+
+/* Style for video container to align videos side by side */
+.video-container {
+    display: flex; /* Use flexbox to align videos side by side */
+    justify-content: center; /* Center the videos horizontally */
+    gap: 20px; /* Space between videos */
+    margin-top: 10px; /* Space above the videos */
+    background-color: #363a381e; /* Cacophony Green with 50% opacity */
+}
+
+/* Style for each video within the container */
+.video-container video {
+    width: 100%; /* Make videos responsive */
+    max-width: 400px; /* Set a max width for each video */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: add a border to the videos */
+    border-radius: 5px; /* Optional: add rounded corners to videos */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+
 
 /* Footer Styling */
 footer {
@@ -79,4 +122,12 @@ footer p {
     section p {
         font-size: 1rem;
     }
+
+    .image-container {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+        align-items: center; /* Center images */
+    }
+    
+  
+
 }
