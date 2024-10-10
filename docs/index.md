@@ -20,10 +20,11 @@ Feel free to explore my portfolio and learn more about my work!
 
 ## My CV
 
-You can view my CV <a href="cv.html">here</a>.
+You can view my CV <a href="CV.html">here</a>.
 
 ## Contact
 
 You can reach me via [suddabyjo.life@gmail.com](mailto:suddabyjo.life@gmail.com) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile) or [GitHub](https://github.com/joelsuddaby).
 
 © My CV Portfolio - All Rights Reserved
+
