@@ -1,0 +1,4 @@
+title: My CV Portfolio
+description: A personal portfolio showcasing my CV and professional experience.
+theme: jekyll-theme-primer
+baseurl: ""  # Change to "/cv-portfolio" if needed
